@@ -5,6 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Apes Peluquería · Quilmes</title>
   <meta name="description" content="Apes Peluquería en Quilmes. Reservá tu turno por WhatsApp. Cortes, barba y más." />
+  <link rel="canonical" href="https://apes-peluqueria.pages.dev/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:site_name" content="Apes Peluquería" />
+  <meta property="og:title" content="Apes Peluquería · Quilmes" />
+  <meta property="og:description" content="Apes Peluquería en Quilmes. Reservá tu turno por WhatsApp. Cortes, barba y más." />
+  <meta property="og:url" content="https://apes-peluqueria.pages.dev/" />
+  <meta property="og:image" content="https://apes-peluqueria.pages.dev/img/og.jpg" />
+  <meta property="og:image:alt" content="Trabajos de Apes Peluquería en Quilmes" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Apes Peluquería · Quilmes" />
+  <meta name="twitter:description" content="Apes Peluquería en Quilmes. Reservá tu turno por WhatsApp." />
+  <meta name="twitter:image" content="https://apes-peluqueria.pages.dev/img/og.jpg" />
   <meta name="theme-color" content="#0E0E0E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +26,10 @@
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <div class="demo-banner" role="note">
+    Demo conceptual de Web Factory — no es el sitio oficial de Apes Peluquería.
+  </div>
 
   <header class="topbar">
     <div class="wrap">
@@ -27,6 +44,9 @@
         <p class="eyebrow">Peluquería de barrio</p>
         <h1>Apes <span>Peluquería</span></h1>
         <p class="lede">Cortes con oficio en Quilmes. Escribinos y reservá tu turno sin vueltas.</p>
+        <figure class="hero-photo">
+          <img src="img/hero.jpg" width="900" height="1200" alt="Corte bob con balayage hecho en Apes Peluquería" loading="eager" decoding="async" />
+        </figure>
       </div>
       <aside class="hero-panel">
         <div>
@@ -74,14 +94,25 @@
       </div>
     </section>
 
-    <!-- Galería: bloques tipográficos / CSS (sin stock falso de equipo). Fotos reales del local: reemplazar cuando el cliente las pase. -->
-    <section class="gallery" aria-label="Ambiente">
-      <div class="gallery-band">
-        <div class="g-block"><span class="g-label">Quilmes</span></div>
-        <div class="g-block" aria-hidden="true"><span class="g-label">Oficio</span></div>
-        <div class="g-block"><span class="g-label">Apes</span></div>
+    <section class="gallery" aria-labelledby="galeria-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="galeria-title">Trabajos</h2>
+          <p>Fotos reales de @apespeluqueria. Más en su Instagram.</p>
+        </div>
+        <div class="photo-grid">
+          <figure>
+            <img src="img/galeria-1.jpg" width="800" height="800" alt="Mechón rosa en cabello oscuro — trabajo de color en Apes" loading="lazy" decoding="async" />
+          </figure>
+          <figure>
+            <img src="img/galeria-2.jpg" width="800" height="800" alt="Pixie texturado con flequillo — corte en Apes Peluquería" loading="lazy" decoding="async" />
+          </figure>
+          <figure>
+            <img src="img/galeria-3.jpg" width="800" height="800" alt="Corte masculino con volumen — Apes Peluquería Quilmes" loading="lazy" decoding="async" />
+          </figure>
+        </div>
+        <p class="gallery-caption">Fotos tomadas del Instagram público de Apes · <a href="https://instagram.com/apespeluqueria" target="_blank" rel="noopener noreferrer">@apespeluqueria</a></p>
       </div>
-      <p class="gallery-caption">Espacio para fotos reales del local y cortes — por ahora tipografía y color del rubro.</p>
     </section>
 
     <section id="contacto" aria-labelledby="contacto-title">
@@ -121,7 +152,7 @@
   <footer class="site-footer">
     <div class="wrap">
       <span>© Apes Peluquería · Quilmes</span>
-      <span class="demo-note">Demo Web Factory</span>
+      <span class="demo-note">Demo conceptual Web Factory · no es el sitio oficial</span>
     </div>
   </footer>
 
